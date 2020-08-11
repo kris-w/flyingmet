@@ -1,2 +1,2 @@
 # flyingmet
-A simple browser game demo using Phaser.
+A simple browser game demo using Phaser
