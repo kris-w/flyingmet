@@ -1,1 +1,1 @@
-docker run --rm -it $(docker build -q .)
+docker run --rm -it -p 8000:80 $(docker build -q .)
