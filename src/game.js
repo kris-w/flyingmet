@@ -3,7 +3,7 @@ var config ={
 	height:240,
 	backgroundColor:0x000000,
 	scene: [Scene1,Scene2,Scene3],
-	pixelArt: true,
+	render: { pixelArt: true, antialias: false, autoResize: false },
 	zoom:3,
 	physics: {
 		default: "arcade",
