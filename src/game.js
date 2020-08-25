@@ -1,12 +1,21 @@
 var config ={
-	width:800,
-	height:600,
+	width:256,
+	height:240,
 	backgroundColor:0x000000,
-	scene: [Scene1,Scene2,Scene3]
+	scene: [Scene1,Scene2,Scene3],
+	pixelArt: true,
+	zoom:3,
+	physics: {
+		default: "arcade",
+		arcade:{
+			debug:false
+		}
+	}
+	
 }
 var game = new Phaser.Game(config);
 
-var GameState = {
+/*var GameState = {
     function preload(){
 	    
     }
@@ -19,4 +28,4 @@ var GameState = {
 };
 
 game.state.add("GameState",GameState);
-game.state.start("GameStates");
+game.state.start("GameStates");*/
